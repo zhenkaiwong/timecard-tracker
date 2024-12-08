@@ -29,7 +29,7 @@
 Install dependencies using following command:
 
 ```bash
-npm instal
+npm install
 ```
 
 Run the development server using following command:
