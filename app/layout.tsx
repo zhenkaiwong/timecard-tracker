@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import "./globals.css";
 import { Stack } from "@mui/material";
 import NavButton from "@/components/nav/NavButton";
 import AppContainer from "@/components/layout/AppContainer";
@@ -19,7 +18,7 @@ export default function RootLayout({
       <body>
         <header>
           <Stack spacing={2} component={"nav"} direction={"row"}>
-            <NavButton href="/">Home</NavButton>
+            <NavButton href="/">Submit timecard</NavButton>
             <NavButton href="/timecards">Timecards</NavButton>
             <NavButton href="/settings">Settings</NavButton>
           </Stack>

@@ -7,8 +7,16 @@ import dayjs from "dayjs";
 
 type Props = {
   sx?: SxProps<Theme>;
+  name: string;
 };
 
 export default function Date(props: Props) {
-  return <DatePicker defaultValue={dayjs()} label="Today" sx={props.sx} />;
+  return (
+    <DatePicker
+      name={props.name}
+      defaultValue={dayjs()}
+      label="Today"
+      sx={props.sx}
+    />
+  );
 }
